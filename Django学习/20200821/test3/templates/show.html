@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table border="1" cellspacing="0">
+        <tr>
+            {# th和td的区别在于，th在单元格中加粗显示，可以用来当第一行标签列#}
+            <th>编号</th>
+            <th>用户名</th>
+            <th>密码</th>
+        </tr>
+        {% for stu in students %}
+            <tr>
+{#            让id之和数量有关 不会第二条记录id为3，counter后面加个0表示从零开始计数，前面可以加rev逆序显示#}
+                <td>{{ forloop.counter }}</td>
+                <td>{{ stu.sname }}</td>
+                <td>{{stu.spwd}}</td>
+            </tr>
+        {% endfor %}
+
+    </table>
+
+</body>
+</html>

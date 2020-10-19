@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function test(){
+            window.location.href = "/student/login/?uname=zhangsan&pwd=123"
+        }
+
+    </script>
+</head>
+<body>
+    <input type="button" onclick="test()" value="GET请求"/>
+    <a href="/student/login/?uname=lisi&pwd=123">显示登陆首页</a>
+    <form action="/student/login/", method="post">
+        {% csrf_token %}
+        <p>
+            <label>用户名：</label><input type="text" name="uname"/>
+        </p>
+        <p>
+            <label>密码：</label><input type="password" name="pwd"/>
+        </p>
+        <p>
+           <input type="submit" value="登陆"/>
+        </p>
+
+    </form>
+</body>
+</html>

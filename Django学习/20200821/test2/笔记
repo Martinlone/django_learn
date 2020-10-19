@@ -1,0 +1,32 @@
+    1、创建django项目
+    2、终端中创建应用 python manage.py startapp 应用名
+    3、在项目包中的settings.py文件添加应用
+    4、确定一下访问路径
+    5、配置项目根路由
+    6、应用包下创建urls文件并配置子路由
+    7、应用宝的views中创建处理函数
+    8、在templates目录中创建login.html
+
+
+*四种GET请求：
+    form表单右边的method改成get
+    浏览器地址栏手写参数拼接直接回车
+    html中写个超链接并知名href地址<a href=""></a>
+    js中的window.location.href="",在整个button绑定该函数
+*一种POST请求方式
+    form表单中method改成post
+
+*两种请求方式的区别：
+   get的参数放在url中，post的放在请求的实体内容中
+   存储请求参数的数据，get的数据长度有限制，取决于浏览器地址栏的输入长度，post限制小
+   get不安全，post相对安全，最安全还是https
+   get有缓存，post木有
+
+*Http协议特性：
+    HTTP1.1版本后支持长连接（keep-alive）
+    单向式的协议（必须先有请求后有响应）
+    无状态的协议
+        不登录想记录
+            Cookie   ：客户端
+            Session    ：服务端
+
