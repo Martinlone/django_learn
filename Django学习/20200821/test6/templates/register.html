@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {#action代表你这个表单需要提交到哪里去#}
+    <form action="/student/" method="post">
+        <p>
+           <label for="sn">姓名：</label><input name="sname" id="sn"/>
+        </p>
+         <p>
+           <label for="sc">所属班级：</label>
+           <select name="clsname" id="sc">
+               <option value="B201Python">B201Python</option>
+               <option value="B202Java">B202Java</option>
+               <option value="B203H5">B203H5</option>
+
+           </select>
+        </p>
+         <p>
+           <label for="cour">选课：</label>
+           <input type="checkbox" name="coursename" value="Python" />Python &emsp;
+           <input type="checkbox" name="coursename" value="Java" />Java &emsp;
+           <input type="checkbox" name="coursename" value="H5" />H5 &emsp;
+         </p>
+        <p>
+            <input type="submit" value="注册"/>
+        </p>
+
+    </form>
+
+
+
+</body>
+</html>

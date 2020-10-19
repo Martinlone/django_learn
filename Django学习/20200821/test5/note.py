@@ -4,6 +4,8 @@
 # @Site : 
 # @File : note.py
 # @Software: PyCharm
+
+#### 项目文件说明
 '''
 @@@@APP包
 1.
@@ -30,12 +32,33 @@ urls根路由
 3.
 wsgi通用网关
 
-
-
+'''
+#### manage.py相关操作
+'''
+1、
+python manage.py startapp stu  # 新建一个app
+2、
+下面再去models写数据库类，并将之添加到setting中
+3、
+python manage.py makemigrations stu  # 创建迁移文件
+4、
+然后执行迁移文件python manage.py migrate在数据库中于是就生成了对应的表
+5、
+在admin文件中添加两行代码实现后台管理
+6、
+如果mysql没有client则在init文件中加几行，利用pymysql来代替client
+7、
+创建admin用户python manage.py createsuperuser
+8、
+settings里面将时区、语言更改一下,admin后台就发生了变化
+LANGUAGE_CODE = 'zh-Hans'
+TIME_ZONE = 'Asia/Shanghai'
+9、
+uuid.uuid4().get_hex()获取16进制uuid的具体值
+10、
+迁移失败的情况下，先删除migrations下面的0001_initial.py文件，在删除数据库中的表django_migrations中的上一次迁移记录，一般是最后一条，然后删除表
 
 '''
-
-
 
 '''
 get 请求的几种方式
@@ -117,17 +140,6 @@ Movie.objects.filter(mid="10002").delete()
 
 '''
 
-
-
-
-
-
-
-
-
-
-
-
 # 下面这个算法是解决[1,2,3,4,5]、['a','b','a','c','b']输出[4,7,3]、['a','b','c']
 
 # import re
@@ -144,3 +156,12 @@ Movie.objects.filter(mid="10002").delete()
 #     sum = reduce(lambda x, y: x + y, index_list)
 #     list_result.append(sum)
 # print(set1,list_result)
+'''
+学生和学生证加了级联，学生证的主键是student，那么用学生表查学生证就是正向查询
+Student.objects.first().scard
+
+Scard.objects.first().student
+用学生证表查询学生就是逆向查询
+
+
+'''

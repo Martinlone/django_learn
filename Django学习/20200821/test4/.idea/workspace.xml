@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac366284-15af-4f86-a261-c9f8eae293ff" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,8 +23,14 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="JupyterTrust" id="4de35864-a957-4ed2-9510-17e0c29038c9" />
   <component name="ProjectId" id="1gcLk0YK0DjY9D5e72hc2tj0Bo1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/statics" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -37,29 +42,19 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\django\Django学习\20200821\test4" />
+      <recent name="D:\自我学习\Django学习\20200821\test4\templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\自我学习\Django学习\20200821\test4\statics" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\自我学习\Django学习\20200821\test4\templates" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.note">
+  <component name="RunManager" selected="Python.1111">
     <configuration name="111" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,6 +69,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/111.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1111" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1111.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,12 +129,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/微信文件/WeChat Files/wxid_7383373833412/FileStorage/File/2020-08" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../微信文件/WeChat Files/wxid_7383373833412/FileStorage/File/2020-08" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:/微信文件/WeChat Files/wxid_7383373833412/FileStorage/File/2020-08/solution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../微信文件/WeChat Files/wxid_7383373833412/FileStorage/File/2020-08/solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,12 +169,14 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1111" />
         <item itemvalue="Python.note" />
         <item itemvalue="Python.111" />
         <item itemvalue="Python.solution" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -188,17 +207,60 @@
       <workItem from="1600306969343" duration="6881000" />
       <workItem from="1600577358283" duration="14078000" />
       <workItem from="1600674108736" duration="1789000" />
-      <workItem from="1600682311293" duration="621000" />
-      <workItem from="1600682976873" duration="970000" />
+      <workItem from="1600680508936" duration="2442000" />
+      <workItem from="1600741683861" duration="4649000" />
+      <workItem from="1600758478640" duration="2895000" />
+      <workItem from="1600765177390" duration="12772000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600682518172">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="418" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1600682518172" />
+    <state x="517" y="85" key="FileChooserDialogImpl" timestamp="1600844731676">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="85" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1600844731676" />
+    <state x="517" y="85" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600682825211" />
+    <state width="1315" height="165" key="GridCell.Tab.0.bottom" timestamp="1600848783167">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1315" height="165" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1600848783167" />
+    <state width="1315" height="165" key="GridCell.Tab.0.center" timestamp="1600848783166">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1315" height="165" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1600848783166" />
+    <state width="1315" height="165" key="GridCell.Tab.0.left" timestamp="1600848783166">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1315" height="165" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1600848783166" />
+    <state width="1315" height="165" key="GridCell.Tab.0.right" timestamp="1600848783166">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1315" height="165" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1600848783166" />
+    <state x="35" y="0" key="SettingsEditor" timestamp="1600844710612">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="35" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1600844710612" />
+    <state x="134" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600683204389" />
+    <state x="406" y="218" width="778" height="340" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1600682845144">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="406" y="218" width="778" height="340" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.728@0.0.1366.728" timestamp="1600682845144" />
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1600682842860">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600682842860" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/test4$solution.coverage" NAME="solution Coverage Results" MODIFIED="1598515013268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/微信文件/WeChat Files/wxid_7383373833412/FileStorage/File/2020-08" />
-    <SUITE FILE_PATH="coverage/test4$111.coverage" NAME="111 Coverage Results" MODIFIED="1598523217018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test4$note.coverage" NAME="note Coverage Results" MODIFIED="1600334130589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test4$1111.coverage" NAME="1111 Coverage Results" MODIFIED="1600779887740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test4$111.coverage" NAME="111 Coverage Results" MODIFIED="1598523217018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test4$solution.coverage" NAME="solution Coverage Results" MODIFIED="1598515013268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../微信文件/WeChat Files/wxid_7383373833412/FileStorage/File/2020-08" />
   </component>
 </project>
